@@ -1,9 +1,13 @@
 <?php
 /**
- * Collection.php
+ * Copyright © 2020 Magenest. All rights reserved.
+ * See COPYING.txt for license details.
  *
- * @copyright Copyright © ${commentsYear} ${CommentsCompanyName}. All rights reserved.
- * @author    ${commentsUserEmail}
+ * Magenest_${CommentsCompanyName} extension
+ * NOTICE OF LICENSE
+ *
+ * @category Magenest
+ * @package Magenest_${CommentsCompanyName}
  */
 namespace ${Vendorname}\${Modulename}\Model\ResourceModel\${Entityname};
 
@@ -14,7 +18,7 @@ class Collection extends AbstractCollection
     /**
      * @var string
      */
-    protected $_idFieldName = 'entity_id';
+    protected $_idFieldName = '${entityname}_id';
 
     /**
      * Define resource model
@@ -23,6 +27,6 @@ class Collection extends AbstractCollection
      */
     protected function _construct()
     {
-        $this->_init('${Vendorname}\${Modulename}\Model\${Entityname}', '${Vendorname}\${Modulename}\Model\ResourceModel\${Entityname}');
+        $this->_init(\${Vendorname}\${Modulename}\Model\${Entityname}::class, \${Vendorname}\${Modulename}\Model\ResourceModel\${Entityname}::class);
     }
 }
