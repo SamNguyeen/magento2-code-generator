@@ -1,9 +1,13 @@
 <?php
 /**
- * DataProvider
+ * Copyright © 2020 Magenest. All rights reserved.
+ * See COPYING.txt for license details.
  *
- * @copyright Copyright © ${commentsYear} ${CommentsCompanyName}. All rights reserved.
- * @author    ${commentsUserEmail}
+ * Magenest_${CommentsCompanyName} extension
+ * NOTICE OF LICENSE
+ *
+ * @category Magenest
+ * @package Magenest_${CommentsCompanyName}
  */
 namespace ${Vendorname}\${Modulename}\Ui\Component\Form\${Entityname};
 
